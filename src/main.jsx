@@ -8,8 +8,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="*" element={<Navigate to="/" />} />
+        <Route path="/portfolio" element={<Home />} />
+        <Route path="*" element={<Navigate to="/portfolio" />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
