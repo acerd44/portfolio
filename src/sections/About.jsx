@@ -16,6 +16,7 @@ const About = () => {
                     I am always eager to learn new technologies and improve my skills to deliver high-quality software.</p>
                 <div className="social-icons">
                     <Link to="https://github.com/acerd44/" className="social-icon"><i className="fab fa-github"></i></Link>
+                    <Link to="https://www.linkedin.com/in/hoss%C3%A9n-rahimzadegan-93b1ab196/" className="social-icon"><i className="fab fa-linkedin"></i></Link>
                 </div>
             </div>
         </section>
