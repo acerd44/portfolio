@@ -101,6 +101,10 @@ body {
 .project-link:hover {
   color: #008c78;
 }
+.project-image {
+  max-width: 100%;
+  height: auto;
+}
 hr {
   margin: 1rem 0;
   color: inherit;
