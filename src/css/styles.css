@@ -10945,6 +10945,10 @@ p.lead {
   font-size: 3rem;
 }
 
+.honeypot-field {
+  display: none;
+}
+
 section.resume-section {
   display: flex;
   align-items: center;

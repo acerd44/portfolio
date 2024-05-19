@@ -6,6 +6,7 @@ import Education from './sections/Education'
 import Skills from './sections/Skills'
 import Projects from './sections/Projects'
 import Footer from './sections/Footer'
+import Contact from './sections/Contact'
 
 const Home = () => {
     return (
@@ -21,6 +22,8 @@ const Home = () => {
                 <Skills />
                 <hr className="m-0" />
                 <Projects />
+                <hr className="m-0" />
+                <Contact />
                 <Footer />
             </div>
         </main>

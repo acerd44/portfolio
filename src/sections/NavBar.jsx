@@ -48,7 +48,7 @@ const NavBar = () => {
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#education">Utbildning</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#skills">Kunskap</a></li>
                     <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#projects">Portfölj</a></li>
-                    <li className="nav-item"><a className="nav-link" href="mailto:hossenrahimzadegan@gmail.com">Kontakta Mig</a></li>
+                    <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#contact">Kontakta Mig</a></li>
                     <li className="nav-item"><a className="nav-link" href={CV} download="Hossén Rahimzadegan - CV">Ladda ner CV</a></li>
                 </ul>
             </div>
