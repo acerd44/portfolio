@@ -27,7 +27,7 @@ const Experience = () => {
                             Jag arbetade främst med deras PowerPoint-presentationer och hjälpte till med presentationen på laptopen, ibland gjorde jag också undersökningar.
                         </p>
                     </div>
-                    <div className="flex-shrink-0"><span className="text-primary">2019 Juli - 2019 Juni</span></div>
+                    <div className="flex-shrink-0"><span className="text-primary">2019 Juni - 2019 Juli</span></div>
                 </div>
             </div>
         </section>
