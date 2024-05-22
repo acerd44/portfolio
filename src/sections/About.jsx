@@ -7,9 +7,6 @@ const About = () => {
                 <h1 className="mb-0">
                     Hossén <br />Rahimzadegan
                 </h1>
-                <div className="subheading mb-5 ">
-                    <a href="mailto:hossenrahimzadegan@gmail.com">hossenrahimzadegan@gmail.com</a>
-                </div>
                 <p className="lead mb-5">Jag arbetar med .NET-ramverket med ett fokus på backendutveckling, men jag behärskar även frontendutveckling.
                     Med en passion för att lösa komplexa problem och skapa effektiva, skalbara lösningar, strävar jag alltid efter att leverera mjukvara av hög kvalitet.
                     Jag är engagerad i att ständigt lära mig nya teknologier och förbättra mina färdigheter för att bli en ännu bättre utvecklare.</p>
