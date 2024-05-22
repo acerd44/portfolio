@@ -43,25 +43,25 @@ const Contact = () => {
                 <h2 className="mb-4">Kontakta Mig</h2>
                 <div className="d-flex flex-column row justify-content-between">
                     <form action="https://formspree.io/f/mayrzwbk" onSubmit={handleSubmit} className="needs-validation" id="contact-form" noValidate>
-                        <div className="col-md-3">
+                        <div className="col-lg-4 col-md-5">
                             <label htmlFor="fullname" className="form-label">Namn</label>
                             <input type="text" className="form-control" id="fullname" required />
                             <div className="invalid-feedback">Please enter your full name!</div>
                             <div className="valid-feedback"></div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-lg-4 col-md-5">
                             <label htmlFor="email" className="form-label">Email address</label>
                             <input type="email" className="form-control" id="email" required />
                             <div className="invalid-feedback">Please provide a valid email address!</div>
                             <div className="valid-feedback"></div>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-lg-4 col-md-5">
                             <label htmlFor="subject" className="form-label">Ämne</label>
                             <input type="subject" className="form-control" id="subject" required />
                             <div className="invalid-feedback">Please provide a subject!</div>
                             <div className="valid-feedback"></div>
                         </div>
-                        <div className="pb-3 col-md-5">
+                        <div className="pb-3 col-lg-5 col-md-5">
                             <label htmlFor="message" className="form-label">Meddelande</label>
                             <textarea rows="5" type="message" className="form-control" id="message" required />
                             <div className="invalid-feedback">Please enter your message!</div>
