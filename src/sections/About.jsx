@@ -7,6 +7,7 @@ const About = () => {
                 <h1 className="mb-0">
                     Hossén <br />Rahimzadegan
                 </h1>
+                <h4 className="h3 text-dark">LIA sökande .NET Utvecklare</h4>
                 <div className="subheading mb-5 ">
                     <a href="mailto:hossenrahimzadegan@gmail.com">hossenrahimzadegan@gmail.com</a>
                 </div>
