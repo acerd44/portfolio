@@ -25,7 +25,7 @@ const Projects = () => {
                             <div className="flex-grow-1">
                                 <h3 className="mb-0">{project.projectName}</h3>
                                 {project.linkTwo != null && (
-                                    <img className="project-image" src={project.linkTwo} width="m" />
+                                    <img className="project-image" src={project.linkTwo} width="" />
                                 )}
                                 <a href={project.link} className='project-link'><h4 className="subheading mt-1 project-link">Github Link</h4></a>
                                 {project.demoLink != null && (
@@ -35,8 +35,6 @@ const Projects = () => {
                                 {project.techStackIcons.map((icon, iconIndex) => (
                                     <img key={iconIndex} src={icon} height="75" />
                                 ))}
-
-
                                 <p className="pt-3">{project.description}</p>
                             </div>
                             <div className="flex-shrink-0"><span className="text-primary">{project.date}</span></div>
