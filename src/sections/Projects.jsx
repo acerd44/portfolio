@@ -34,7 +34,6 @@ const Projects = () => {
                         <p className="pt-3">This web application offers a range of features for managing customers, accounts, and users (both admins and cashiers), all designed with a user-friendly interface based on Bootstrap template. It also includes a Web API for checking customer info and transaction lists and a Console App checking for suspicious transactions. </p>
                     </div>
                     <div className="flex-shrink-0"><span className="text-primary">2024-05-01</span></div>
-
                 </div>
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5 border border-3 rounded p-3 border-secondary">
                     <div className="flex-grow-1">
@@ -48,7 +47,6 @@ const Projects = () => {
                         <p className="pt-3">A website designed from scratch with the help of some screenshots and a figma file. It is partially incomplete and only has a main page and a contact page.</p>
                     </div>
                     <div className="flex-shrink-0"><span className="text-primary">2024-03-14</span></div>
-
                 </div>
             </div>
         </section>
