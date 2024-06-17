@@ -152,6 +152,10 @@ section.resume-section .resume-section-content {
     section.resume-section {
         min-height: 50vh;
     }
+
+    .project-image {
+        max-width: 55;
+    }
 }
 
 @media (min-width: 992px) {
@@ -160,6 +164,10 @@ section.resume-section .resume-section-content {
         padding-right: 3rem;
         padding-top: 5rem;
         padding-bottom: 5rem;
+    }
+
+    .project-image {
+        max-width: 80%;
     }
 }
 
