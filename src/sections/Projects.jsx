@@ -27,8 +27,7 @@ const Projects = () => {
                         <h3 className="mb-0">Bank Administration Web Application with a Web API and console app</h3>
                         <img className="project-image" src="https://i.imgur.com/TRvcPUz.png" width="" />
                         <a href="https://github.com/acerd44/BankApplication" className='project-link'><h4 className="subheading mt-1 project-link">Github Link</h4></a>
-                        {/* <a href="https://hossenbank.azurewebsites.net/" className='project-link'><h4 className="subheading mt-1 project-link">Demo (Refresh if it doesn't load)</h4></a> */}
-                        <h4 className="subheading mt-1 project-link">Demo is currently not available, a video about it will be uploaded soon.</h4>
+                        <a href="https://youtu.be/GYXWeir5Htk" className="project-link"><h4 className="subheading mt-1 project-link">Demo (YouTube video only for now)</h4></a>
                         {projectOneIcons.map((icon, index) => (
                             <img key={index} src={icon} height="75" />
                         ))}
